@@ -139,6 +139,7 @@ export default class SwipeItem extends React.Component<Props, States> {
                 y: 0
             },
             friction: 10,
+            useNativeDriver: true
         }).start();
     }
 
